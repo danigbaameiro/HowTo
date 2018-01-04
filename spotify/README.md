@@ -49,7 +49,7 @@ sudo dpkg -i libgcrypt11_1.5.0-5+deb7u1_amd64.deb
 ```sh
 echo "alias spotify='/usr/bin/./spotif'" >> ~/.bashrc
 ```
-#### Fix (option 3 - not recommended)
+##### Fix (option 3 - not recommended)
 ```sh
 sudo ln -s /usr/lib64libgcrypt.so /usr/lib64libgcrypt.so.1
 ```
