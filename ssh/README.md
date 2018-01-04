@@ -26,7 +26,7 @@ cat id_rsa.pub
 
 2. Click in New SSH key
 <p align="center">
-  <img src="https://image.ibb.co/cn1jwb/putting_ssh_key.png">
+  <img src="https://image.ibb.co/g3WW9w/new_ssh.png">
 </p>
 
 3. Put your public key in the 
