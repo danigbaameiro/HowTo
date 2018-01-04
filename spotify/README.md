@@ -1,5 +1,11 @@
-# Install on Debian
-## First option
+# How to install Spotify Linux
+
+<p align="center">
+  <img src="http://images.wondershare.com/images/music/spotify-logo2.png" width="250">
+</p>
+
+## Install on Debian
+### First option
  1. Add the Spotify repository signing keys to be able to verify downloaded packages
 ```sh
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
@@ -17,7 +23,7 @@ sudo apt-get update
 sudo apt-get install spotify-client
 ```
 
-## Second option
+### Second option
  1. Install aptitude
 ```sh
 sudo apt-get install aptitude
@@ -27,14 +33,14 @@ sudo apt-get install aptitude
 sudo aptitude install spotify-client
 ```
 
-## Posible errors
-### Error with libgcrypt.so
+### Posible errors
+#### Error with libgcrypt.so
 spotify: error while loading shared libraries: libgcrypt.so.11: cannot open shared object file: No such file or directory
-#### Fix (option 1)
+##### Fix (option 1)
 ```sh
 sudo dpkg -i libgcrypt11_1.5.0-5+deb7u1_amd64.deb
 ```
-#### Fix (option 2)
+##### Fix (option 2)
 1. Try to execute:
 ```sh
 /usr/bin/./spotify
@@ -43,7 +49,7 @@ sudo dpkg -i libgcrypt11_1.5.0-5+deb7u1_amd64.deb
 ```sh
 echo "alias spotify='/usr/bin/./spotif'" >> ~/.bashrc
 ```
-### Fix (option 3 - not recommended)
+#### Fix (option 3 - not recommended)
 ```sh
 sudo ln -s /usr/lib64libgcrypt.so /usr/lib64libgcrypt.so.1
 ```
