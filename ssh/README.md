@@ -29,7 +29,7 @@ cat id_rsa.pub
   <img src="https://image.ibb.co/g3WW9w/new_ssh.png">
 </p>
 
-3. Put your public key in the 
+3. Put your public key in the key field and click in Add Key. Remember you can see your public key using:
 ```
 cat ~/.ssh
 ```
