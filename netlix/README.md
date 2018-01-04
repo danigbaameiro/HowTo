@@ -5,10 +5,7 @@
 </p>
 
 ## Use on Firefox
-1. First open netflix
-<p align="center">
-  <img src="https://image.ibb.co/gA0gRb/activar_drm.png">
-</p>
+1. First open [Netflix](www.netflix.com)
 
 2. Active DRM and wait few second
 <p align="center">
