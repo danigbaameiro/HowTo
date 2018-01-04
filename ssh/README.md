@@ -23,12 +23,14 @@ cat id_rsa.pub
 <p align="center">
   <img src="https://image.ibb.co/k8n2hG/ssh_github.png">
 </p>
+
 2. Click in New SSH key
 <p align="center">
   <img src="https://image.ibb.co/cn1jwb/putting_ssh_key.png">
 </p>
+
 3. Put your public key in the 
-```sh
+```
 cat ~/.ssh
 ```
 
