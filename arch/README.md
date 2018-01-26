@@ -31,6 +31,8 @@ $ swapon /dev/sda1
 ### Part Two - Installing the system
 ```sh
 # You need an internet connection
+# update the keys
+$ pacman -Sy archlinux-keyring
 # We are going to install in the root partition
 $ pacstrap /mnt base base-devel
 # Wait some time
