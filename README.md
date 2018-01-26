@@ -10,3 +10,6 @@ How to configure on GNU/Linux Linux...
 * [SSH](https://github.com/Sawyer13/HowTo/tree/master/ssh)
 * [Comprimi y descomprimir](https://github.com/Sawyer13/HowTo/blob/master/actions/des-comprimir.md)
 * [Git](https://github.com/Sawyer13/HowTo/tree/master/git)
+
+How to install...
+* [Arch Linux](https://github.com/Sawyer13/HowTo/tree/master/arch)
