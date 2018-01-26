@@ -1,7 +1,7 @@
 # How to install Arch Linux
 
 <p align="center">
-  <img src="http://www.hisense.es/blog/wp-content/uploads/2017/10/Netflix-octubre-2017.jpg" width="250">
+  <img src="https://www.linuxadictos.com/wp-content/uploads/arch-linux-logo.jpg" width="250">
 </p>
 
 ## Download an Arch iso
