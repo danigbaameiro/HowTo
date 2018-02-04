@@ -8,8 +8,9 @@ I will update with the programs that I need to install
 
 How to configure on GNU/Linux Linux...
 * [SSH](https://github.com/Sawyer13/HowTo/tree/master/ssh)
-* [Comprimi y descomprimir](https://github.com/Sawyer13/HowTo/blob/master/actions/des-comprimir.md)
+* [Comprimir y descomprimir](https://github.com/Sawyer13/HowTo/blob/master/actions/des-comprimir.md)
 * [Git](https://github.com/Sawyer13/HowTo/tree/master/git)
+* [Actualizar el kernel](https://github.com/Sawyer13/HowTo/blob/master/actions/act-kernel.md)
 
 How to install...
 * [Arch Linux](https://github.com/Sawyer13/HowTo/tree/master/arch)
