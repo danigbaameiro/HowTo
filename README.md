@@ -12,6 +12,7 @@ How to configure on GNU/Linux Linux...
 * [Comprimir y descomprimir](https://github.com/Sawyer13/HowTo/blob/master/actions/des-comprimir.md)
 * [Git](https://github.com/Sawyer13/HowTo/tree/master/git)
 * [Actualizar el kernel](https://github.com/Sawyer13/HowTo/blob/master/actions/act-kernel.md)
+* [Liberar espacio en cache](https://github.com/Sawyer13/HowTo/blob/master/actions/clean-cache.md)
 
 
 How to install...
