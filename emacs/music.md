@@ -7,15 +7,15 @@ $ sudo apt-get install emm
 
 ## Add emm to emacs
 ```sh
-$ wget http://ftp.gnu.org/gnu/emms/emms-4.0.tar.gz
-$ tar -zxf emms-4.0.tar.gz
-$ mv emms-4.0 .emacs.d/lisp
+$ wget http://ftp.gnu.org/gnu/emms/emms-5.0.tar.gz
+$ tar -zxf emms-5.0.tar.gz
+$ mv emms-5.0 .emacs.d/lisp
 ```
 
 ## Edit emacs configuration and add
 ```sh
 ;;; emms
-(add-to-list ‘load-path “~/.emacs.d/lisp/emms-4.0/”)
+(add-to-list ‘load-path “~/.emacs.d/lisp/emms-5.0/”)
 (require ‘emms-setup)
 (emms-standard)
 (emms-default-players)
