@@ -66,7 +66,7 @@ $ nano /etc/vconsole.conf
 # Install grub
 $ grub-install /dev/sda
 # Create the fike
-$ grub-mkconfig -o /boot/grub/grub.conf
+$ grub-mkconfig -o /boot/grub/grub.cfg
 # Create the image
 $ mkinitcpio -p linux
 # Set the root password
@@ -89,6 +89,14 @@ $ nano /etc/sudoers
 # And now reboot
 $ reboot
 $ sudo pacman -Syu
+# En caso de fallar, comprueba la red, si no tienes ejecuta:
+$ nano /etc/hosts
+# Introduce:
+127.0.0.1 localhost
+::!       localhost
+# Activa networkmanager
+$ systemctl enable NetworkManager
+$ systemctl start NetworkManager
 ```
 
 ### Part Five - Graphic environment
@@ -116,6 +124,17 @@ $ sudo pacman -S gnome gnome-extra
 $ sudo pacman -S gnome-power-manager
 ## Gnome-tweak-tool
 $ sudo pacman -S gnome-tweak-tool
+## GDM
+$ sudo systemctl enable gdm.service
+$ sudo reboot
+```
+
+#### Mate
+```sh
+$ sudo pacman -S mate mate-extra
+# Install complements
+## Menu
+$ sudo pacman -S gnome-main-menu
 ## GDM
 $ sudo systemctl enable gdm.service
 $ sudo reboot
