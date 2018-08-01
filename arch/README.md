@@ -9,15 +9,15 @@
 ## Run Arch cd
 1. Select Boot Arch Linux
 
-### Part One - Partitioing the Hard Drive
+### Part One - Partitioning the Hard Drive
 ```sh
-# Set spanish landguage
+# Set Spanish language
 $ loadkeys es
 #See your disk
 $ fdisk -l 
 # Run a partition manager
 $ cfdisk /dev/sda
-# If Arch is the only operativo system, delete all the partitions
+# If Arch is the only operative system, delete all the partitions
 # Create a swap partition
 ## New - Partition primary - Select the size as you want
 ## Select type - Linux Swap
@@ -45,15 +45,15 @@ $ genfstab -U -p /mnt >> /mnt/etc/fstab
 
 ### Part Three - Configuring the installation
 ```sh
-# Create an chroot
+# Create a chroot
 $ arch-chroot /mnt
 $ nano /etc/locale.gen
-# Select your lenguage and uncomment
+# Select your language and uncomment
 $ locale-gen
 # Location preferences
 $ nano /etc/locale.conf 
 # Write LANG=es_ES.UTF-8
-# now we are going to select our timezone
+# now we are going to select our time zone
 $ cd /usr/share/zoneinfo
 # Select yours (Europe)
 $ cd /usr/share/zoneinfo/Europe
@@ -65,13 +65,13 @@ $ nano /etc/vconsole.conf
 # Write KEYMAP=es
 # Install grub
 $ grub-install /dev/sda
-# Create the fike
+# Create the file
 $ grub-mkconfig -o /boot/grub/grub.cfg
 # Create the image
 $ mkinitcpio -p linux
 # Set the root password
 $ passwd
-# exit the chroot sesion
+# exit the chroot session
 $ exit
 $ umount /mnt 
 $ reboot
@@ -94,7 +94,7 @@ $ nano /etc/hosts
 # Introduce:
 127.0.0.1 localhost
 ::!       localhost
-# Activa networkmanager
+# Active networkmanager
 $ systemctl enable NetworkManager
 $ systemctl start NetworkManager
 ```
